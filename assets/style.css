@@ -1,0 +1,77 @@
+* {
+	font-family: arial;
+}
+
+.bgimage {
+	background-image: url('mac.jpg')
+
+}
+
+.header {
+  background-color: deepskyblue;
+  color:DarkBlue;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: lightskyblue;
+  overflow:hidden;
+}
+
+.navbar a {
+  padding: 10px;
+  float:center;
+  color:royalblue;
+  text-align: center;
+  text-decoration:none;
+}
+.navbar a:hover {
+  background-color: yellowgreen;
+  color: darkgreen
+}
+
+.txtbox {
+  border: 6px darkblue solid;
+  background-color: deepskyblue;
+  padding: 20px;
+  color: darkblue;
+}
+
+.txtbox p {
+	padding: 10px;
+}
+
+.timeline {
+  border: 6px blue solid;
+  background-color: dodgerblue;
+  padding: 20px;
+  color: darkblue;
+  float: left;
+  height: 100%;
+  flex: 1;
+}
+
+.timeline p {
+	padding: 10px;
+}
+
+.tmln-txtbox {
+  border: 6px darkblue solid;
+  background-color: deepskyblue;
+  padding: 20px;
+  color: darkblue;
+  
+  float: right;
+  height: 100%;
+  flex: 1;
+}
+
+.tmln-txtbox p, h2 {
+	padding: 10px;
+}
+
+div.container {
+	display: flex;
+}
+
